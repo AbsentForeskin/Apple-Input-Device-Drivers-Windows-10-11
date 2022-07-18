@@ -1,11 +1,11 @@
-# Windows 10/11 Drivers for Apple Accessories & Peripherals
-Official driver support enabling the usage of various Apple accessories and peripherals, including keyboards, mice, and trackpads.
+# Apple Input Device Drivers for Windows 10 & 11
+Re-packaged official driver support software enabling the native usage of various Apple accessories and peripherals—including keyboards, mice, and trackpads.
 
 ## Version
-Built with Windows Support Software version 6.1.7071 (latest version).
+Built with Windows Support version 6.1.7071 (latest version).
 
 ## Information
-Apple has released drivers enabling the native usage of their proprietary accessories and peripheral devices on Microsoft Windows operating systems. 
+Apple has released drivers enabling the native usage of their proprietary interface and peripheral devices on Microsoft Windows operating systems. 
 
 To protect its users, Apple began requiring their driver downloads to occur through a controlled utility—known as Boot Camp Assistant—available only on macOS to automate the process and prevent the user from accidental misconfiguration of critical system drivers, but this also restricted the accessibility to non-critical and necessary device drivers such as human interface devices. This repository aims to provide access to device drivers in the event that they cannot be acquired via Boot Camp Assistant.
 
@@ -15,7 +15,7 @@ The drivers listed here are compatible with Windows 10 and 11. Though Apple has 
 Compatible devices include all versions of Apple Magic Mouse, Apple Magic Keyboard, Apple Magic Trackpad, and all Apple proprietary wired keyboards and mice.
 
 ## Usage
-To install the desired device driver, open the folder name representing the device type, right-click the `.inf` file and choose `Install`. Upon completion you will need to disconnect and reconnect your device.
+To install the desired device driver, open the folder name corresponding to the device type, right-click the `.inf` file and choose `Install`. Upon completion you will need to disconnect and reconnect your device.
 
 The Apple Magic Keyboard will require you to install the `.inf` files in both the `AppleKeyboard` and `AppleMagicKeyboard2` folders.
 
